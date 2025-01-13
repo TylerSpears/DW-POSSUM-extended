@@ -1,3 +1,0 @@
-[submodule "spin-echo-possum"]
-	path = spin-echo-possum
-	url = git@github.com:marksgraham/spin-echo-POSSUM.git

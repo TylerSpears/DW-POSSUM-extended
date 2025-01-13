@@ -1,0 +1,14 @@
+name: possum
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - ipython
+  - numpy[version='<=1.19.2']
+  - dipy[version='<=1.2.0']
+  - nibabel[version='<=3.1.1']
+  - matplotlib
+  - scipy[version='<=1.5.2']

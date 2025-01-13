@@ -1,0 +1,2551 @@
+{
+  "version": "1",
+  "pip_version": "24.3.1",
+  "installed": [
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "PyQt5",
+        "version": "5.15.9",
+        "summary": "Python bindings for the Qt cross platform application toolkit",
+        "home_page": "https://www.riverbankcomputing.com/software/pyqt/",
+        "author": "Riverbank Computing Limited",
+        "author_email": "info@riverbankcomputing.com",
+        "requires_dist": [
+          "PyQt5-sip (>=12.11, <13)"
+        ],
+        "requires_python": ">=3.7"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/PyQt5-5.15.9.dist-info",
+      "installer": "conda",
+      "requested": false
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "PyQt5-sip",
+        "version": "12.12.2",
+        "platform": [
+          "X11",
+          "macOS",
+          "Windows"
+        ],
+        "summary": "The sip module support for PyQt5",
+        "home_page": "https://www.riverbankcomputing.com/software/sip/",
+        "author": "Riverbank Computing Limited",
+        "author_email": "info@riverbankcomputing.com",
+        "requires_python": ">=3.7"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/PyQt5_sip-12.12.2-py3.9-linux-x86_64.egg-info"
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "asttokens",
+        "version": "3.0.0",
+        "summary": "Annotate AST trees with source code positions",
+        "keywords": [
+          "code",
+          "ast",
+          "parse",
+          "tokenize",
+          "refactor"
+        ],
+        "home_page": "https://github.com/gristlabs/asttokens",
+        "author": "Dmitry Sagalovskiy, Grist Labs",
+        "author_email": "dmitry@getgrist.com",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Software Development :: Code Generators",
+          "Topic :: Software Development :: Compilers",
+          "Topic :: Software Development :: Interpreters",
+          "Topic :: Software Development :: Pre-processors",
+          "Environment :: Console",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_dist": [
+          "astroid<4,>=2; extra == \"astroid\"",
+          "astroid<4,>=2; extra == \"test\"",
+          "pytest; extra == \"test\"",
+          "pytest-cov; extra == \"test\"",
+          "pytest-xdist; extra == \"test\""
+        ],
+        "requires_python": ">=3.8",
+        "provides_extra": [
+          "astroid",
+          "test"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/asttokens-3.0.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "certifi",
+        "version": "2024.12.14",
+        "summary": "Python package for providing Mozilla's CA Bundle.",
+        "home_page": "https://github.com/certifi/python-certifi",
+        "author": "Kenneth Reitz",
+        "author_email": "me@kennethreitz.com",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+          "Natural Language :: English",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13"
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Source, https://github.com/certifi/python-certifi"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/certifi-2024.12.14.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/certifi_1734380492396/work/certifi",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "cvxopt",
+        "version": "0.0.0",
+        "summary": "Convex optimization package",
+        "home_page": "https://cvxopt.org",
+        "author": "M. Andersen, J. Dahl, and L. Vandenberghe",
+        "author_email": "martin.skovgaard.andersen@gmail.com, dahl.joachim@gmail.com, vandenbe@ee.ucla.edu",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+          "Operating System :: OS Independent",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_python": ">=3, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "project_url": [
+          "Source, https://github.com/cvxopt/cvxopt"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/cvxopt-0.0.0-py3.9.egg-info"
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "cycler",
+        "version": "0.12.1",
+        "summary": "Composable style cycles",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "cycle",
+          "kwargs"
+        ],
+        "author_email": "Thomas A Caswell <matplotlib-users@python.org>",
+        "classifier": [
+          "License :: OSI Approved :: BSD License",
+          "Development Status :: 4 - Beta",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3 :: Only"
+        ],
+        "requires_dist": [
+          "ipython; extra == \"docs\"",
+          "matplotlib; extra == \"docs\"",
+          "numpydoc; extra == \"docs\"",
+          "sphinx; extra == \"docs\"",
+          "pytest; extra == \"tests\"",
+          "pytest-cov; extra == \"tests\"",
+          "pytest-xdist; extra == \"tests\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "homepage, https://matplotlib.org/cycler/",
+          "repository, https://github.com/matplotlib/cycler"
+        ],
+        "provides_extra": [
+          "docs",
+          "tests"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/cycler-0.12.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/cycler_1733332471406/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "decorator",
+        "version": "5.1.1",
+        "platform": [
+          "All"
+        ],
+        "summary": "Decorators for Humans",
+        "keywords": [
+          "decorators",
+          "generic",
+          "utility"
+        ],
+        "home_page": "https://github.com/micheles/decorator",
+        "author": "Michele Simionato",
+        "author_email": "michele.simionato@gmail.com",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Natural Language :: English",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Utilities"
+        ],
+        "requires_python": ">=3.5"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/decorator-5.1.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/decorator_1733236420667/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "dipy",
+        "version": "1.2.0",
+        "platform": [
+          "OS Independent"
+        ],
+        "summary": "Diffusion MRI utilities in python",
+        "home_page": "http://dipy.org",
+        "download_url": "http://github.com/dipy/dipy/archives/master",
+        "author": "dipy developers",
+        "author_email": "neuroimaging@python.org",
+        "maintainer": "Eleftherios Garyfallidis",
+        "maintainer_email": "neuroimaging@python.org",
+        "classifier": [
+          "Development Status :: 3 - Alpha",
+          "Environment :: Console",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "nibabel (>=3.0.0)",
+          "h5py (>=2.5.0)",
+          "coverage ; extra == 'all'",
+          "codecov ; extra == 'all'",
+          "statsmodels ; extra == 'all'",
+          "fury (>=0.6scikit-learn) ; extra == 'all'",
+          "cython ; extra == 'all'",
+          "pytest ; extra == 'all'",
+          "nibabel (>=3.0.0) ; extra == 'all'",
+          "tables ; extra == 'all'",
+          "fury (>=0.6) ; extra == 'all'",
+          "statsmodelstables ; extra == 'all'",
+          "cvxpy ; extra == 'all'",
+          "scikit-image ; extra == 'all'",
+          "h5py ; extra == 'all'",
+          "numpy ; extra == 'all'",
+          "scipy ; extra == 'all'",
+          "coveralls ; extra == 'all'",
+          "scikit-learn ; extra == 'all'",
+          "matplotlib ; extra == 'all'",
+          "pandas ; extra == 'all'",
+          "tensorflow ; extra == 'all'",
+          "cython ; extra == 'doc'",
+          "numpy ; extra == 'doc'",
+          "scipy ; extra == 'doc'",
+          "nibabel (>=3.0.0) ; extra == 'doc'",
+          "h5py ; extra == 'doc'",
+          "cvxpy ; extra == 'doc'",
+          "pandas ; extra == 'doc'",
+          "tables ; extra == 'doc'",
+          "matplotlib ; extra == 'doc'",
+          "fury (>=0.6scikit-learn) ; extra == 'doc'",
+          "scikit-image ; extra == 'doc'",
+          "statsmodels ; extra == 'doc'",
+          "scikit-learn ; extra == 'ml'",
+          "pandas ; extra == 'ml'",
+          "statsmodelstables ; extra == 'ml'",
+          "tensorflow ; extra == 'ml'",
+          "pytest ; extra == 'test'",
+          "coverage ; extra == 'test'",
+          "coveralls ; extra == 'test'",
+          "codecov ; extra == 'test'",
+          "fury (>=0.6) ; extra == 'viz'",
+          "matplotlib ; extra == 'viz'"
+        ],
+        "requires_python": ">= 3.6",
+        "provides_extra": [
+          "all",
+          "doc",
+          "ml",
+          "test",
+          "viz"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/dipy-1.2.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/dipy_1604248136307/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "exceptiongroup",
+        "version": "1.2.2",
+        "summary": "Backport of PEP 654 (exception groups)",
+        "description_content_type": "text/x-rst",
+        "author_email": "Alex Grönholm <alex.gronholm@nextday.fi>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "pytest >= 6 ; extra == \"test\""
+        ],
+        "requires_python": ">=3.7",
+        "project_url": [
+          "Changelog, https://github.com/agronholm/exceptiongroup/blob/main/CHANGES.rst",
+          "Issue Tracker, https://github.com/agronholm/exceptiongroup/issues",
+          "Source code, https://github.com/agronholm/exceptiongroup"
+        ],
+        "provides_extra": [
+          "test"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/exceptiongroup-1.2.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1733208806608/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "executing",
+        "version": "2.1.0",
+        "summary": "Get the currently executing AST node of a frame, and other information",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/alexmojaki/executing",
+        "author": "Alex Hall",
+        "author_email": "alex.mojaki@gmail.com",
+        "classifier": [
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13"
+        ],
+        "requires_dist": [
+          "asttokens>=2.1.0; extra == \"tests\"",
+          "ipython; extra == \"tests\"",
+          "pytest; extra == \"tests\"",
+          "coverage; extra == \"tests\"",
+          "coverage-enable-subprocess; extra == \"tests\"",
+          "littleutils; extra == \"tests\"",
+          "rich; python_version >= \"3.11\" and extra == \"tests\""
+        ],
+        "requires_python": ">=3.8",
+        "provides_extra": [
+          "tests"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/executing-2.1.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/executing_1733569351617/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "h5py",
+        "version": "2.10.0",
+        "platform": [
+          "UNKNOWN"
+        ],
+        "summary": "Read and write HDF5 files from Python",
+        "home_page": "http://www.h5py.org",
+        "download_url": "https://pypi.python.org/pypi/h5py",
+        "author": "Andrew Collette",
+        "author_email": "andrew.collette@gmail.com",
+        "maintainer": "Andrew Collette",
+        "maintainer_email": "andrew.collette@gmail.com",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Information Technology",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Cython",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.4",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Database",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Operating System :: Unix",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows"
+        ],
+        "requires_dist": [
+          "numpy (>=1.7)",
+          "six"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/h5py-2.10.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/h5py_1602551891819/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "ipython",
+        "version": "8.18.1",
+        "platform": [
+          "Linux",
+          "Mac OSX",
+          "Windows"
+        ],
+        "summary": "IPython: Productive Interactive Computing",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "Interactive",
+          "Interpreter",
+          "Shell",
+          "Embedding"
+        ],
+        "home_page": "https://ipython.org",
+        "author": "The IPython Development Team",
+        "author_email": "ipython-dev@python.org",
+        "classifier": [
+          "Framework :: IPython",
+          "Framework :: Jupyter",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Topic :: System :: Shells"
+        ],
+        "requires_dist": [
+          "decorator",
+          "jedi >=0.16",
+          "matplotlib-inline",
+          "prompt-toolkit <3.1.0,>=3.0.41",
+          "pygments >=2.4.0",
+          "stack-data",
+          "traitlets >=5",
+          "typing-extensions ; python_version < \"3.10\"",
+          "exceptiongroup ; python_version < \"3.11\"",
+          "pexpect >4.3 ; sys_platform != \"win32\"",
+          "colorama ; sys_platform == \"win32\"",
+          "black ; extra == 'all'",
+          "ipykernel ; extra == 'all'",
+          "setuptools >=18.5 ; extra == 'all'",
+          "sphinx >=1.3 ; extra == 'all'",
+          "sphinx-rtd-theme ; extra == 'all'",
+          "docrepr ; extra == 'all'",
+          "matplotlib ; extra == 'all'",
+          "stack-data ; extra == 'all'",
+          "pytest <7 ; extra == 'all'",
+          "typing-extensions ; extra == 'all'",
+          "exceptiongroup ; extra == 'all'",
+          "pytest <7.1 ; extra == 'all'",
+          "pytest-asyncio <0.22 ; extra == 'all'",
+          "testpath ; extra == 'all'",
+          "pickleshare ; extra == 'all'",
+          "nbconvert ; extra == 'all'",
+          "nbformat ; extra == 'all'",
+          "ipywidgets ; extra == 'all'",
+          "notebook ; extra == 'all'",
+          "ipyparallel ; extra == 'all'",
+          "qtconsole ; extra == 'all'",
+          "curio ; extra == 'all'",
+          "matplotlib !=3.2.0 ; extra == 'all'",
+          "numpy >=1.22 ; extra == 'all'",
+          "pandas ; extra == 'all'",
+          "trio ; extra == 'all'",
+          "black ; extra == 'black'",
+          "ipykernel ; extra == 'doc'",
+          "setuptools >=18.5 ; extra == 'doc'",
+          "sphinx >=1.3 ; extra == 'doc'",
+          "sphinx-rtd-theme ; extra == 'doc'",
+          "docrepr ; extra == 'doc'",
+          "matplotlib ; extra == 'doc'",
+          "stack-data ; extra == 'doc'",
+          "pytest <7 ; extra == 'doc'",
+          "typing-extensions ; extra == 'doc'",
+          "exceptiongroup ; extra == 'doc'",
+          "pytest <7.1 ; extra == 'doc'",
+          "pytest-asyncio <0.22 ; extra == 'doc'",
+          "testpath ; extra == 'doc'",
+          "pickleshare ; extra == 'doc'",
+          "ipykernel ; extra == 'kernel'",
+          "nbconvert ; extra == 'nbconvert'",
+          "nbformat ; extra == 'nbformat'",
+          "ipywidgets ; extra == 'notebook'",
+          "notebook ; extra == 'notebook'",
+          "ipyparallel ; extra == 'parallel'",
+          "qtconsole ; extra == 'qtconsole'",
+          "pytest <7.1 ; extra == 'test'",
+          "pytest-asyncio <0.22 ; extra == 'test'",
+          "testpath ; extra == 'test'",
+          "pickleshare ; extra == 'test'",
+          "pytest <7.1 ; extra == 'test_extra'",
+          "pytest-asyncio <0.22 ; extra == 'test_extra'",
+          "testpath ; extra == 'test_extra'",
+          "pickleshare ; extra == 'test_extra'",
+          "curio ; extra == 'test_extra'",
+          "matplotlib !=3.2.0 ; extra == 'test_extra'",
+          "nbformat ; extra == 'test_extra'",
+          "numpy >=1.22 ; extra == 'test_extra'",
+          "pandas ; extra == 'test_extra'",
+          "trio ; extra == 'test_extra'"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Documentation, https://ipython.readthedocs.io/",
+          "Funding, https://numfocus.org/",
+          "Source, https://github.com/ipython/ipython",
+          "Tracker, https://github.com/ipython/ipython/issues"
+        ],
+        "provides_extra": [
+          "all",
+          "black",
+          "doc",
+          "kernel",
+          "nbconvert",
+          "nbformat",
+          "notebook",
+          "parallel",
+          "qtconsole",
+          "terminal",
+          "test",
+          "test_extra"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/ipython-8.18.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/ipython_1701831663892/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "jedi",
+        "version": "0.19.2",
+        "platform": [
+          "any"
+        ],
+        "summary": "An autocompletion tool for Python that can be used for text editors.",
+        "keywords": [
+          "python",
+          "completion",
+          "refactoring",
+          "vim"
+        ],
+        "home_page": "https://github.com/davidhalter/jedi",
+        "author": "David Halter",
+        "author_email": "davidhalter88@gmail.com",
+        "maintainer": "David Halter",
+        "maintainer_email": "davidhalter88@gmail.com",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Environment :: Plugins",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "parso<0.9.0,>=0.8.4",
+          "pytest<9.0.0; extra == \"testing\"",
+          "docopt; extra == \"testing\"",
+          "colorama; extra == \"testing\"",
+          "Django; extra == \"testing\"",
+          "attrs; extra == \"testing\"",
+          "flake8==5.0.4; extra == \"qa\"",
+          "mypy==0.971; extra == \"qa\"",
+          "types-setuptools==67.2.0.1; extra == \"qa\"",
+          "Jinja2==2.11.3; extra == \"docs\"",
+          "MarkupSafe==1.1.1; extra == \"docs\"",
+          "Pygments==2.8.1; extra == \"docs\"",
+          "alabaster==0.7.12; extra == \"docs\"",
+          "babel==2.9.1; extra == \"docs\"",
+          "chardet==4.0.0; extra == \"docs\"",
+          "commonmark==0.8.1; extra == \"docs\"",
+          "docutils==0.17.1; extra == \"docs\"",
+          "future==0.18.2; extra == \"docs\"",
+          "idna==2.10; extra == \"docs\"",
+          "imagesize==1.2.0; extra == \"docs\"",
+          "mock==1.0.1; extra == \"docs\"",
+          "packaging==20.9; extra == \"docs\"",
+          "pyparsing==2.4.7; extra == \"docs\"",
+          "pytz==2021.1; extra == \"docs\"",
+          "readthedocs-sphinx-ext==2.1.4; extra == \"docs\"",
+          "recommonmark==0.5.0; extra == \"docs\"",
+          "requests==2.25.1; extra == \"docs\"",
+          "six==1.15.0; extra == \"docs\"",
+          "snowballstemmer==2.1.0; extra == \"docs\"",
+          "sphinx==1.8.5; extra == \"docs\"",
+          "sphinx-rtd-theme==0.4.3; extra == \"docs\"",
+          "sphinxcontrib-serializinghtml==1.1.4; extra == \"docs\"",
+          "sphinxcontrib-websupport==1.2.4; extra == \"docs\"",
+          "urllib3==1.26.4; extra == \"docs\""
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Documentation, https://jedi.readthedocs.io/en/latest/"
+        ],
+        "provides_extra": [
+          "testing",
+          "qa",
+          "docs"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/jedi-0.19.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "joblib",
+        "version": "1.4.2",
+        "platform": [
+          "any"
+        ],
+        "summary": "Lightweight pipelining with Python functions",
+        "description_content_type": "text/x-rst",
+        "author_email": "Gael Varoquaux <gael.varoquaux@normalesup.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Education",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Utilities",
+          "Topic :: Software Development :: Libraries"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://joblib.readthedocs.io",
+          "Source, https://github.com/joblib/joblib"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/joblib-1.4.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/joblib_1733736026804/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "kiwisolver",
+        "version": "1.4.7",
+        "summary": "A fast implementation of the Cassowary constraint solver",
+        "description_content_type": "text/x-rst",
+        "author_email": "The Nucleic Development Team <sccolbert@gmail.com>",
+        "maintainer_email": "\"Matthieu C. Dartiailh\" <m.dartiailh@gmail.com>",
+        "classifier": [
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "homepage, https://github.com/nucleic/kiwi",
+          "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+          "repository, https://github.com/nucleic/kiwi",
+          "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/kiwisolver-1.4.7.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1725459266648/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "matplotlib",
+        "version": "3.3.2",
+        "platform": [
+          "any"
+        ],
+        "summary": "Python plotting package",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://matplotlib.org",
+        "download_url": "https://matplotlib.org/users/installing.html",
+        "author": "John D. Hunter, Michael Droettboom",
+        "author_email": "matplotlib-users@python.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Framework :: Matplotlib",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Education",
+          "License :: OSI Approved :: Python Software Foundation License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Topic :: Scientific/Engineering :: Visualization"
+        ],
+        "requires_dist": [
+          "certifi (>=2020.06.20)",
+          "cycler (>=0.10)",
+          "kiwisolver (>=1.0.1)",
+          "numpy (>=1.15)",
+          "pillow (>=6.2.0)",
+          "pyparsing (!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3)",
+          "python-dateutil (>=2.1)"
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Documentation, https://matplotlib.org",
+          "Source Code, https://github.com/matplotlib/matplotlib",
+          "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+          "Forum, https://discourse.matplotlib.org/",
+          "Donate, https://numfocus.org/donate-to-matplotlib"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/matplotlib-3.3.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1602600746449/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "matplotlib-inline",
+        "version": "0.1.7",
+        "summary": "Inline Matplotlib backend for Jupyter",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "ipython",
+          "jupyter",
+          "matplotlib",
+          "python"
+        ],
+        "author_email": "IPython Development Team <ipython-dev@python.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Framework :: IPython",
+          "Framework :: Jupyter",
+          "Framework :: Jupyter :: JupyterLab",
+          "Framework :: Jupyter :: JupyterLab :: 3",
+          "Framework :: Jupyter :: JupyterLab :: 4",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Multimedia :: Graphics"
+        ],
+        "requires_dist": [
+          "traitlets"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://github.com/ipython/matplotlib-inline"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/matplotlib_inline-0.1.7.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "mock",
+        "version": "5.1.0",
+        "summary": "Rolling backport of unittest.mock for all Pythons",
+        "home_page": "http://mock.readthedocs.org/en/latest/",
+        "author": "Testing Cabal",
+        "author_email": "testing-in-python@lists.idyll.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Software Development :: Testing"
+        ],
+        "requires_dist": [
+          "sphinx; extra == \"docs\"",
+          "pytest; extra == \"test\"",
+          "pytest-cov; extra == \"test\"",
+          "twine; extra == \"build\"",
+          "wheel; extra == \"build\"",
+          "blurb; extra == \"build\""
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Source, https://github.com/testing-cabal/mock"
+        ],
+        "provides_extra": [
+          "docs",
+          "test",
+          "build"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/mock-5.1.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/mock_1733235407829/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "nibabel",
+        "version": "3.1.1",
+        "platform": [
+          "OS Independent"
+        ],
+        "summary": "Access a multitude of neuroimaging data formats",
+        "description_content_type": "text/x-rst; charset=UTF-8",
+        "home_page": "https://nipy.org/nibabel",
+        "download_url": "https://github.com/nipy/nibabel",
+        "author": "nibabel developers",
+        "author_email": "neuroimaging@python.org",
+        "maintainer": "Chris Markiewicz",
+        "maintainer_email": "neuroimaging@python.org",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Environment :: Console",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "numpy (>=1.13)",
+          "packaging (>=14.3)",
+          "pydicom (>=0.9.9) ; extra == 'all'",
+          "pillow ; extra == 'all'",
+          "gitpython ; extra == 'all'",
+          "twine ; extra == 'all'",
+          "matplotlib (>=1.5.3) ; extra == 'all'",
+          "numpydoc ; extra == 'all'",
+          "sphinx (<3,>=0.3) ; extra == 'all'",
+          "texext ; extra == 'all'",
+          "h5py ; extra == 'all'",
+          "scipy ; extra == 'all'",
+          "flake8 ; extra == 'all'",
+          "coverage ; extra == 'all'",
+          "pytest (!=5.3.4) ; extra == 'all'",
+          "pytest-cov ; extra == 'all'",
+          "gitpython ; extra == 'dev'",
+          "twine ; extra == 'dev'",
+          "pydicom (>=0.9.9) ; extra == 'dicom'",
+          "pydicom (>=0.9.9) ; extra == 'dicomfs'",
+          "pillow ; extra == 'dicomfs'",
+          "matplotlib (>=1.5.3) ; extra == 'doc'",
+          "numpydoc ; extra == 'doc'",
+          "sphinx (<3,>=0.3) ; extra == 'doc'",
+          "texext ; extra == 'doc'",
+          "h5py ; extra == 'minc2'",
+          "scipy ; extra == 'spm'",
+          "flake8 ; extra == 'style'",
+          "coverage ; extra == 'test'",
+          "pytest (!=5.3.4) ; extra == 'test'",
+          "pytest-cov ; extra == 'test'"
+        ],
+        "requires_python": ">=3.6",
+        "provides_extra": [
+          "all",
+          "dev",
+          "dicom",
+          "dicomfs",
+          "doc",
+          "minc2",
+          "spm",
+          "style",
+          "test"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/nibabel-3.1.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/nibabel_1593541214053/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": false
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "numexpr",
+        "version": "2.10.0",
+        "summary": "Fast numerical expression evaluator for NumPy",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/pydata/numexpr",
+        "author": "David M. Cooke, Francesc Alted, and others",
+        "maintainer": "Francesc Alted",
+        "maintainer_email": "faltet@gmail.com",
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "Intended Audience :: Financial and Insurance Industry",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: MacOS"
+        ],
+        "requires_dist": [
+          "numpy >=1.19.3"
+        ],
+        "requires_python": ">=3.9"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/numexpr-2.10.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/numexpr_1716812153714/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "numpy",
+        "version": "1.19.2",
+        "platform": [
+          "Windows",
+          "Linux",
+          "Solaris",
+          "Mac OS-X",
+          "Unix"
+        ],
+        "summary": "NumPy is the fundamental package for array computing with Python.",
+        "home_page": "https://www.numpy.org",
+        "download_url": "https://pypi.python.org/pypi/numpy",
+        "author": "Travis E. Oliphant et al.",
+        "maintainer": "NumPy Developers",
+        "maintainer_email": "numpy-discussion@python.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Software Development",
+          "Topic :: Scientific/Engineering",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS"
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Bug Tracker, https://github.com/numpy/numpy/issues",
+          "Documentation, https://numpy.org/doc/1.19",
+          "Source Code, https://github.com/numpy/numpy"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/numpy-1.19.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/numpy_1603047569844/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "packaging",
+        "version": "24.2",
+        "summary": "Core utilities for Python packages",
+        "description_content_type": "text/x-rst",
+        "author_email": "Donald Stufft <donald@stufft.io>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Apache Software License",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Typing :: Typed"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Documentation, https://packaging.pypa.io/",
+          "Source, https://github.com/pypa/packaging"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/packaging-24.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "parso",
+        "version": "0.8.4",
+        "platform": [
+          "any"
+        ],
+        "summary": "A Python Parser",
+        "keywords": [
+          "python",
+          "parser",
+          "parsing"
+        ],
+        "home_page": "https://github.com/davidhalter/parso",
+        "author": "David Halter",
+        "author_email": "davidhalter88@gmail.com",
+        "maintainer": "David Halter",
+        "maintainer_email": "davidhalter88@gmail.com",
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Environment :: Plugins",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+          "Topic :: Utilities",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "pytest; extra == \"testing\"",
+          "docopt; extra == \"testing\"",
+          "flake8==5.0.4; extra == \"qa\"",
+          "mypy==0.971; extra == \"qa\"",
+          "types-setuptools==67.2.0.1; extra == \"qa\""
+        ],
+        "requires_python": ">=3.6",
+        "provides_extra": [
+          "testing",
+          "qa"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/parso-0.8.4.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pexpect",
+        "version": "4.9.0",
+        "platform": [
+          "UNIX"
+        ],
+        "summary": "Pexpect allows easy control of interactive console applications.",
+        "home_page": "https://pexpect.readthedocs.io/",
+        "author": "Noah Spurrier; Thomas Kluyver; Jeff Quast",
+        "author_email": "noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: System Administrators",
+          "License :: OSI Approved :: ISC License (ISCL)",
+          "Operating System :: POSIX",
+          "Operating System :: MacOS :: MacOS X",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Topic :: Software Development",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Software Development :: Quality Assurance",
+          "Topic :: Software Development :: Testing",
+          "Topic :: System",
+          "Topic :: System :: Archiving :: Packaging",
+          "Topic :: System :: Installation/Setup",
+          "Topic :: System :: Shells",
+          "Topic :: System :: Software Distribution",
+          "Topic :: Terminals"
+        ],
+        "requires_dist": [
+          "ptyprocess>=0.5"
+        ],
+        "project_url": [
+          "Bug Tracker, https://github.com/pexpect/pexpect/issues",
+          "Documentation, https://pexpect.readthedocs.io/",
+          "Source Code, https://github.com/pexpect/pexpect",
+          "History, https://pexpect.readthedocs.io/en/stable/history.html"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pexpect-4.9.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pickleshare",
+        "version": "0.7.5",
+        "summary": "Tiny 'shelve'-like database with concurrency support",
+        "keywords": [
+          "database",
+          "persistence",
+          "pickle",
+          "ipc",
+          "shelve"
+        ],
+        "home_page": "https://github.com/pickleshare/pickleshare",
+        "author": "Ville Vainio",
+        "author_email": "vivainio@gmail.com",
+        "classifier": [
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3"
+        ],
+        "requires_dist": [
+          "pathlib2; python_version in \"2.6 2.7 3.2 3.3\""
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pickleshare-0.7.5.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pillow",
+        "version": "10.3.0",
+        "summary": "Python Imaging Library (Fork)",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "Imaging"
+        ],
+        "author_email": "\"Jeffrey A. Clark\" <aclark@aclark.net>",
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Multimedia :: Graphics",
+          "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
+          "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+          "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+          "Topic :: Multimedia :: Graphics :: Viewers",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "furo ; extra == 'docs'",
+          "olefile ; extra == 'docs'",
+          "sphinx >=2.4 ; extra == 'docs'",
+          "sphinx-copybutton ; extra == 'docs'",
+          "sphinx-inline-tabs ; extra == 'docs'",
+          "sphinx-removed-in ; extra == 'docs'",
+          "sphinxext-opengraph ; extra == 'docs'",
+          "olefile ; extra == 'fpx'",
+          "olefile ; extra == 'mic'",
+          "check-manifest ; extra == 'tests'",
+          "coverage ; extra == 'tests'",
+          "defusedxml ; extra == 'tests'",
+          "markdown2 ; extra == 'tests'",
+          "olefile ; extra == 'tests'",
+          "packaging ; extra == 'tests'",
+          "pyroma ; extra == 'tests'",
+          "pytest ; extra == 'tests'",
+          "pytest-cov ; extra == 'tests'",
+          "pytest-timeout ; extra == 'tests'",
+          "typing-extensions ; (python_version < \"3.10\") and extra == 'typing'",
+          "defusedxml ; extra == 'xmp'"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Changelog, https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst",
+          "Documentation, https://pillow.readthedocs.io",
+          "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+          "Homepage, https://python-pillow.org",
+          "Mastodon, https://fosstodon.org/@pillow",
+          "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+          "Source, https://github.com/python-pillow/Pillow"
+        ],
+        "provides_extra": [
+          "docs",
+          "fpx",
+          "mic",
+          "tests",
+          "typing",
+          "xmp"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pillow-10.3.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pillow_1712154461189/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pip",
+        "version": "24.3.1",
+        "summary": "The PyPA recommended tool for installing Python packages.",
+        "description_content_type": "text/x-rst",
+        "author_email": "The pip developers <distutils-sig@python.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Topic :: Software Development :: Build Tools",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://pip.pypa.io/",
+          "Documentation, https://pip.pypa.io",
+          "Source, https://github.com/pypa/pip",
+          "Changelog, https://pip.pypa.io/en/stable/news/"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pip-24.3.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pip_1734466212593/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "ply",
+        "version": "3.11",
+        "summary": "Python Lex & Yacc",
+        "home_page": "http://www.dabeaz.com/ply/",
+        "author": "David Beazley",
+        "author_email": "dave@dabeaz.com",
+        "maintainer": "David Beazley",
+        "maintainer_email": "dave@dabeaz.com",
+        "classifier": [
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 2"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/ply-3.11.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/ply_1733239724146/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "prompt_toolkit",
+        "version": "3.0.48",
+        "summary": "Library for building powerful interactive command lines in Python",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+        "author": "Jonathan Slenders",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python",
+          "Topic :: Software Development"
+        ],
+        "requires_dist": [
+          "wcwidth"
+        ],
+        "requires_python": ">=3.7.0"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/prompt_toolkit-3.0.48.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1733302527033/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "ptyprocess",
+        "version": "0.7.0",
+        "summary": "Run a subprocess in a pseudo terminal",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/pexpect/ptyprocess",
+        "author": "Thomas Kluyver",
+        "author_email": "thomas@kluyver.me.uk",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: System Administrators",
+          "License :: OSI Approved :: ISC License (ISCL)",
+          "Operating System :: POSIX",
+          "Operating System :: MacOS :: MacOS X",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Topic :: Terminals"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/ptyprocess-0.7.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f",
+          "hashes": {
+            "sha256": "92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f"
+          }
+        }
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pure_eval",
+        "version": "0.2.3",
+        "summary": "Safely evaluate AST nodes without side effects",
+        "description_content_type": "text/markdown",
+        "home_page": "http://github.com/alexmojaki/pure_eval",
+        "author": "Alex Hall",
+        "author_email": "alex.mojaki@gmail.com",
+        "classifier": [
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent"
+        ],
+        "requires_dist": [
+          "pytest; extra == \"tests\""
+        ],
+        "provides_extra": [
+          "tests"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pure_eval-0.2.3.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "pydicom",
+        "version": "2.4.4",
+        "summary": "A pure Python package for reading and writing DICOM data",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "dicom",
+          "python",
+          "medical",
+          "imaging"
+        ],
+        "author_email": "Darcy Mason and contributors <darcymason@gmail.com>",
+        "classifier": [
+          "License :: OSI Approved :: MIT License",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Healthcare Industry",
+          "Intended Audience :: Science/Research",
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Operating System :: OS Independent",
+          "Topic :: Scientific/Engineering :: Medical Science Apps.",
+          "Topic :: Scientific/Engineering :: Physics",
+          "Topic :: Software Development :: Libraries"
+        ],
+        "requires_dist": [
+          "numpy ; extra == \"docs\"",
+          "numpydoc ; extra == \"docs\"",
+          "matplotlib ; extra == \"docs\"",
+          "pillow ; extra == \"docs\"",
+          "sphinx ; extra == \"docs\"",
+          "sphinx_rtd_theme ; extra == \"docs\"",
+          "sphinx-gallery ; extra == \"docs\"",
+          "sphinxcontrib-napoleon ; extra == \"docs\"",
+          "sphinx-copybutton ; extra == \"docs\""
+        ],
+        "requires_python": ">=3.7",
+        "project_url": [
+          "documentation, https://pydicom.github.io/pydicom",
+          "download, https://github.com/pydicom/pydicom/archive/master.zip",
+          "homepage, https://github.com/pydicom/pydicom",
+          "repository, https://github.com/pydicom/pydicom"
+        ],
+        "provides_extra": [
+          "docs"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pydicom-2.4.4.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pydicom_1702744017281/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "Pygments",
+        "version": "2.18.0",
+        "summary": "Pygments is a syntax highlighting package written in Python.",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "syntax",
+          "highlighting"
+        ],
+        "author_email": "Georg Brandl <georg@python.org>",
+        "maintainer": "Matthäus G. Chajdas",
+        "maintainer_email": "Georg Brandl <georg@python.org>, Jean Abou Samra <jean@abou-samra.fr>",
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "Intended Audience :: Developers",
+          "Intended Audience :: End Users/Desktop",
+          "Intended Audience :: System Administrators",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Text Processing :: Filters",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "colorama>=0.4.6; extra == 'windows-terminal'"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://pygments.org",
+          "Documentation, https://pygments.org/docs",
+          "Source, https://github.com/pygments/pygments",
+          "Bug Tracker, https://github.com/pygments/pygments/issues",
+          "Changelog, https://github.com/pygments/pygments/blob/master/CHANGES"
+        ],
+        "provides_extra": [
+          "plugins",
+          "windows-terminal"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pygments-2.18.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pygments_1733221634316/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "pyparsing",
+        "version": "3.2.0",
+        "summary": "pyparsing module - Classes and methods to define and execute parsing grammars",
+        "description_content_type": "text/x-rst",
+        "author_email": "Paul McGuire <ptmcg.gm+pyparsing@gmail.com>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Information Technology",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Software Development :: Compilers",
+          "Topic :: Text Processing",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "railroad-diagrams ; extra == \"diagrams\"",
+          "jinja2 ; extra == \"diagrams\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Homepage, https://github.com/pyparsing/pyparsing/"
+        ],
+        "provides_extra": [
+          "diagrams"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/pyparsing-3.2.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pyparsing_1733222594562/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "python-dateutil",
+        "version": "2.9.0.post0",
+        "summary": "Extensions to the standard Python datetime module",
+        "description_content_type": "text/x-rst",
+        "home_page": "https://github.com/dateutil/dateutil",
+        "author": "Gustavo Niemeyer",
+        "author_email": "gustavo@niemeyer.net",
+        "maintainer": "Paul Ganssle",
+        "maintainer_email": "dateutil@python.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.3",
+          "Programming Language :: Python :: 3.4",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Software Development :: Libraries"
+        ],
+        "requires_dist": [
+          "six>=1.5"
+        ],
+        "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+        "project_url": [
+          "Documentation, https://dateutil.readthedocs.io/en/stable/",
+          "Source, https://github.com/dateutil/dateutil"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/python_dateutil-2.9.0.post0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "scikit-learn",
+        "version": "1.6.0",
+        "summary": "A set of python modules for machine learning and data mining",
+        "description_content_type": "text/x-rst",
+        "maintainer_email": "scikit-learn developers <scikit-learn@python.org>",
+        "classifier": [
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Topic :: Software Development",
+          "Topic :: Scientific/Engineering",
+          "Development Status :: 5 - Production/Stable",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython"
+        ],
+        "requires_dist": [
+          "numpy>=1.19.5",
+          "scipy>=1.6.0",
+          "joblib>=1.2.0",
+          "threadpoolctl>=3.1.0",
+          "numpy>=1.19.5; extra == \"build\"",
+          "scipy>=1.6.0; extra == \"build\"",
+          "cython>=3.0.10; extra == \"build\"",
+          "meson-python>=0.16.0; extra == \"build\"",
+          "numpy>=1.19.5; extra == \"install\"",
+          "scipy>=1.6.0; extra == \"install\"",
+          "joblib>=1.2.0; extra == \"install\"",
+          "threadpoolctl>=3.1.0; extra == \"install\"",
+          "matplotlib>=3.3.4; extra == \"benchmark\"",
+          "pandas>=1.1.5; extra == \"benchmark\"",
+          "memory_profiler>=0.57.0; extra == \"benchmark\"",
+          "matplotlib>=3.3.4; extra == \"docs\"",
+          "scikit-image>=0.17.2; extra == \"docs\"",
+          "pandas>=1.1.5; extra == \"docs\"",
+          "seaborn>=0.9.0; extra == \"docs\"",
+          "memory_profiler>=0.57.0; extra == \"docs\"",
+          "sphinx>=7.3.7; extra == \"docs\"",
+          "sphinx-copybutton>=0.5.2; extra == \"docs\"",
+          "sphinx-gallery>=0.17.1; extra == \"docs\"",
+          "numpydoc>=1.2.0; extra == \"docs\"",
+          "Pillow>=7.1.2; extra == \"docs\"",
+          "pooch>=1.6.0; extra == \"docs\"",
+          "sphinx-prompt>=1.4.0; extra == \"docs\"",
+          "sphinxext-opengraph>=0.9.1; extra == \"docs\"",
+          "plotly>=5.14.0; extra == \"docs\"",
+          "polars>=0.20.30; extra == \"docs\"",
+          "sphinx-design>=0.5.0; extra == \"docs\"",
+          "sphinx-design>=0.6.0; extra == \"docs\"",
+          "sphinxcontrib-sass>=0.3.4; extra == \"docs\"",
+          "pydata-sphinx-theme>=0.15.3; extra == \"docs\"",
+          "sphinx-remove-toctrees>=1.0.0.post1; extra == \"docs\"",
+          "towncrier>=24.8.0; extra == \"docs\"",
+          "matplotlib>=3.3.4; extra == \"examples\"",
+          "scikit-image>=0.17.2; extra == \"examples\"",
+          "pandas>=1.1.5; extra == \"examples\"",
+          "seaborn>=0.9.0; extra == \"examples\"",
+          "pooch>=1.6.0; extra == \"examples\"",
+          "plotly>=5.14.0; extra == \"examples\"",
+          "matplotlib>=3.3.4; extra == \"tests\"",
+          "scikit-image>=0.17.2; extra == \"tests\"",
+          "pandas>=1.1.5; extra == \"tests\"",
+          "pytest>=7.1.2; extra == \"tests\"",
+          "pytest-cov>=2.9.0; extra == \"tests\"",
+          "ruff>=0.5.1; extra == \"tests\"",
+          "black>=24.3.0; extra == \"tests\"",
+          "mypy>=1.9; extra == \"tests\"",
+          "pyamg>=4.0.0; extra == \"tests\"",
+          "polars>=0.20.30; extra == \"tests\"",
+          "pyarrow>=12.0.0; extra == \"tests\"",
+          "numpydoc>=1.2.0; extra == \"tests\"",
+          "pooch>=1.6.0; extra == \"tests\"",
+          "conda-lock==2.5.6; extra == \"maintenance\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "homepage, https://scikit-learn.org",
+          "source, https://github.com/scikit-learn/scikit-learn",
+          "download, https://pypi.org/project/scikit-learn/#files",
+          "tracker, https://github.com/scikit-learn/scikit-learn/issues",
+          "release notes, https://scikit-learn.org/stable/whats_new"
+        ],
+        "provides_extra": [
+          "build",
+          "install",
+          "benchmark",
+          "docs",
+          "examples",
+          "tests",
+          "maintenance"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/scikit_learn-1.6.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1733760110140/work/dist/scikit_learn-1.6.0-cp39-cp39-linux_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=f4205b3762b8033782da7a40727c959075158f152dcb3f50e33f60ecfc8cf6f4",
+          "hashes": {
+            "sha256": "f4205b3762b8033782da7a40727c959075158f152dcb3f50e33f60ecfc8cf6f4"
+          }
+        }
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "scipy",
+        "version": "1.5.2",
+        "platform": [
+          "Windows",
+          "Linux",
+          "Solaris",
+          "Mac OS-X",
+          "Unix"
+        ],
+        "summary": "SciPy: Scientific Library for Python",
+        "home_page": "https://www.scipy.org",
+        "download_url": "https://github.com/scipy/scipy/releases",
+        "maintainer": "SciPy Developers",
+        "maintainer_email": "scipy-dev@python.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Topic :: Software Development",
+          "Topic :: Scientific/Engineering",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS"
+        ],
+        "requires_dist": [
+          "numpy (>=1.14.5)"
+        ],
+        "requires_python": ">=3.6",
+        "project_url": [
+          "Bug Tracker, https://github.com/scipy/scipy/issues",
+          "Documentation, https://docs.scipy.org/doc/scipy/reference/",
+          "Source Code, https://github.com/scipy/scipy"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/scipy-1.5.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/scipy_1604204612041/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "setuptools",
+        "version": "75.6.0",
+        "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "CPAN",
+          "PyPI",
+          "distutils",
+          "eggs",
+          "package",
+          "management"
+        ],
+        "author_email": "Python Packaging Authority <distutils-sig@python.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: System :: Archiving :: Packaging",
+          "Topic :: System :: Systems Administration",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "pytest!=8.1.*,>=6; extra == \"test\"",
+          "virtualenv>=13.0.0; extra == \"test\"",
+          "wheel>=0.44.0; extra == \"test\"",
+          "pip>=19.1; extra == \"test\"",
+          "packaging>=24.2; extra == \"test\"",
+          "jaraco.envs>=2.2; extra == \"test\"",
+          "pytest-xdist>=3; extra == \"test\"",
+          "jaraco.path>=3.2.0; extra == \"test\"",
+          "build[virtualenv]>=1.0.3; extra == \"test\"",
+          "filelock>=3.4.0; extra == \"test\"",
+          "ini2toml[lite]>=0.14; extra == \"test\"",
+          "tomli-w>=1.0.0; extra == \"test\"",
+          "pytest-timeout; extra == \"test\"",
+          "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+          "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+          "pytest-home>=0.5; extra == \"test\"",
+          "pytest-subprocess; extra == \"test\"",
+          "pyproject-hooks!=1.1; extra == \"test\"",
+          "jaraco.test>=5.5; extra == \"test\"",
+          "sphinx>=3.5; extra == \"doc\"",
+          "jaraco.packaging>=9.3; extra == \"doc\"",
+          "rst.linker>=1.9; extra == \"doc\"",
+          "furo; extra == \"doc\"",
+          "sphinx-lint; extra == \"doc\"",
+          "jaraco.tidelift>=1.4; extra == \"doc\"",
+          "pygments-github-lexers==0.0.5; extra == \"doc\"",
+          "sphinx-favicon; extra == \"doc\"",
+          "sphinx-inline-tabs; extra == \"doc\"",
+          "sphinx-reredirects; extra == \"doc\"",
+          "sphinxcontrib-towncrier; extra == \"doc\"",
+          "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+          "pyproject-hooks!=1.1; extra == \"doc\"",
+          "towncrier<24.7; extra == \"doc\"",
+          "packaging>=24.2; extra == \"core\"",
+          "more_itertools>=8.8; extra == \"core\"",
+          "jaraco.text>=3.7; extra == \"core\"",
+          "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+          "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+          "wheel>=0.43.0; extra == \"core\"",
+          "platformdirs>=4.2.2; extra == \"core\"",
+          "jaraco.collections; extra == \"core\"",
+          "jaraco.functools>=4; extra == \"core\"",
+          "packaging; extra == \"core\"",
+          "more_itertools; extra == \"core\"",
+          "pytest-checkdocs>=2.4; extra == \"check\"",
+          "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+          "ruff>=0.7.0; sys_platform != \"cygwin\" and extra == \"check\"",
+          "pytest-cov; extra == \"cover\"",
+          "pytest-enabler>=2.2; extra == \"enabler\"",
+          "pytest-mypy; extra == \"type\"",
+          "mypy<1.14,>=1.12; extra == \"type\"",
+          "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+          "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Source, https://github.com/pypa/setuptools",
+          "Documentation, https://setuptools.pypa.io/",
+          "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+        ],
+        "provides_extra": [
+          "test",
+          "doc",
+          "ssl",
+          "certs",
+          "core",
+          "check",
+          "cover",
+          "enabler",
+          "type"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/setuptools-75.6.0-py3.9.egg-info"
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "sip",
+        "version": "6.7.12",
+        "platform": [
+          "X11",
+          "macOS",
+          "Windows"
+        ],
+        "summary": "A Python bindings generator for C/C++ libraries",
+        "home_page": "https://www.riverbankcomputing.com/software/sip/",
+        "author": "Riverbank Computing Limited",
+        "author_email": "info@riverbankcomputing.com",
+        "requires_dist": [
+          "packaging",
+          "ply",
+          "setuptools",
+          "tomli ; python_version < \"3.11\""
+        ],
+        "requires_python": ">=3.7"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/sip-6.7.12.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/sip_1697300422453/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "six",
+        "version": "1.17.0",
+        "summary": "Python 2 and 3 compatibility utilities",
+        "home_page": "https://github.com/benjaminp/six",
+        "author": "Benjamin Peterson",
+        "author_email": "benjamin@python.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 3",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Utilities"
+        ],
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/six-1.17.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "stack_data",
+        "version": "0.6.3",
+        "summary": "Extract data from python stack frames and tracebacks for informative displays",
+        "description_content_type": "text/markdown",
+        "home_page": "http://github.com/alexmojaki/stack_data",
+        "author": "Alex Hall",
+        "author_email": "alex.mojaki@gmail.com",
+        "classifier": [
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Topic :: Software Development :: Debuggers"
+        ],
+        "requires_dist": [
+          "executing>=1.2.0",
+          "asttokens>=2.1.0",
+          "pure_eval",
+          "pytest; extra == \"tests\"",
+          "typeguard; extra == \"tests\"",
+          "pygments; extra == \"tests\"",
+          "littleutils; extra == \"tests\"",
+          "cython; extra == \"tests\""
+        ],
+        "provides_extra": [
+          "tests"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/stack_data-0.6.3.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "tables",
+        "version": "3.6.1",
+        "platform": [
+          "any"
+        ],
+        "summary": "Hierarchical datasets for Python",
+        "home_page": "http://www.pytables.org/",
+        "author": "Francesc Alted, Ivan Vilata,Antonio Valentino, Anthony Scopatz et al.",
+        "author_email": "pytables@pytables.org",
+        "maintainer": "PyTables maintainers",
+        "maintainer_email": "pytables@pytables.org",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Information Technology",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Topic :: Database",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: Unix"
+        ],
+        "requires_dist": [
+          "numpy (>=1.9.3)",
+          "numexpr (>=2.6.2)"
+        ],
+        "requires_python": ">=3.5"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/tables-3.6.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pytables_1603317060807/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "threadpoolctl",
+        "version": "3.5.0",
+        "summary": "threadpoolctl",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/joblib/threadpoolctl",
+        "author": "Thomas Moreau",
+        "author_email": "thomas.moreau.2010@gmail.com",
+        "classifier": [
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_python": ">=3.8"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/threadpoolctl-3.5.0.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1714400101435/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "toml",
+        "version": "0.10.2",
+        "summary": "Python Library for Tom's Obvious, Minimal Language",
+        "home_page": "https://github.com/uiri/toml",
+        "author": "William Pearson",
+        "author_email": "uiri@xqz.ca",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.6",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.3",
+          "Programming Language :: Python :: 3.4",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/toml-0.10.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/toml_1734091811753/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "tomli",
+        "version": "2.2.1",
+        "summary": "A lil' TOML parser",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "toml"
+        ],
+        "author_email": "Taneli Hukkinen <hukkin@users.noreply.github.com>",
+        "classifier": [
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: MacOS",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX :: Linux",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Typing :: Typed"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Changelog, https://github.com/hukkin/tomli/blob/master/CHANGELOG.md",
+          "Homepage, https://github.com/hukkin/tomli"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/tomli-2.2.1.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/tomli_1733256695513/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "tornado",
+        "version": "6.4.2",
+        "summary": "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.",
+        "description_content_type": "text/x-rst",
+        "home_page": "http://www.tornadoweb.org/",
+        "author": "Facebook",
+        "author_email": "python-tornado@googlegroups.com",
+        "classifier": [
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">= 3.8",
+        "project_url": [
+          "Source, https://github.com/tornadoweb/tornado"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/tornado-6.4.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/tornado_1732615921868/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "traitlets",
+        "version": "5.14.3",
+        "summary": "Traitlets Python configuration system",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "Interactive",
+          "Interpreter",
+          "Shell",
+          "Web"
+        ],
+        "author_email": "IPython Development Team <ipython-dev@python.org>",
+        "classifier": [
+          "Framework :: IPython",
+          "Framework :: Jupyter",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: System Administrators",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "myst-parser; extra == 'docs'",
+          "pydata-sphinx-theme; extra == 'docs'",
+          "sphinx; extra == 'docs'",
+          "argcomplete>=3.0.3; extra == 'test'",
+          "mypy>=1.7.0; extra == 'test'",
+          "pre-commit; extra == 'test'",
+          "pytest-mock; extra == 'test'",
+          "pytest-mypy-testing; extra == 'test'",
+          "pytest<8.2,>=7.0; extra == 'test'"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://github.com/ipython/traitlets",
+          "Documentation, https://traitlets.readthedocs.io",
+          "Source, https://github.com/ipython/traitlets",
+          "Funding, https://numfocus.org",
+          "Tracker, https://github.com/ipython/traitlets/issues"
+        ],
+        "provides_extra": [
+          "docs",
+          "test"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/traitlets-5.14.3.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "typing_extensions",
+        "version": "4.12.2",
+        "summary": "Backported and Experimental Type Hints for Python 3.8+",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "annotations",
+          "backport",
+          "checker",
+          "checking",
+          "function",
+          "hinting",
+          "hints",
+          "type",
+          "typechecking",
+          "typehinting",
+          "typehints",
+          "typing"
+        ],
+        "author_email": "\"Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee\" <levkivskyi@gmail.com>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Python Software Foundation License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Software Development"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Bug Tracker, https://github.com/python/typing_extensions/issues",
+          "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+          "Documentation, https://typing-extensions.readthedocs.io/",
+          "Home, https://github.com/python/typing_extensions",
+          "Q & A, https://github.com/python/typing/discussions",
+          "Repository, https://github.com/python/typing_extensions"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/typing_extensions-4.12.2.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "wcwidth",
+        "version": "0.2.13",
+        "summary": "Measures the displayed width of unicode strings in a terminal",
+        "keywords": [
+          "cjk",
+          "combining",
+          "console",
+          "eastasian",
+          "emoji",
+          "emulator",
+          "terminal",
+          "unicode",
+          "wcswidth",
+          "wcwidth",
+          "xterm"
+        ],
+        "home_page": "https://github.com/jquast/wcwidth",
+        "author": "Jeff Quast",
+        "author_email": "contact@jeffquast.com",
+        "classifier": [
+          "Intended Audience :: Developers",
+          "Natural Language :: English",
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: POSIX",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Localization",
+          "Topic :: Software Development :: Internationalization",
+          "Topic :: Terminals"
+        ],
+        "requires_dist": [
+          "backports.functools-lru-cache>=1.2.1; python_version < \"3.2\""
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/wcwidth-0.2.13.dist-info",
+      "direct_url": {
+        "url": "file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work",
+        "dir_info": {}
+      },
+      "installer": "conda",
+      "requested": true
+    },
+    {
+      "metadata": {
+        "metadata_version": "2.3",
+        "name": "wheel",
+        "version": "0.45.1",
+        "summary": "A built-package format for Python",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "wheel",
+          "packaging"
+        ],
+        "author_email": "Daniel Holth <dholth@fastmail.fm>",
+        "maintainer_email": "Alex Grönholm <alex.gronholm@nextday.fi>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Topic :: System :: Archiving :: Packaging",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12"
+        ],
+        "requires_dist": [
+          "pytest >= 6.0.0 ; extra == \"test\"",
+          "setuptools >= 65 ; extra == \"test\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Changelog, https://wheel.readthedocs.io/en/stable/news.html",
+          "Documentation, https://wheel.readthedocs.io/",
+          "Issue Tracker, https://github.com/pypa/wheel/issues",
+          "Source, https://github.com/pypa/wheel"
+        ],
+        "provides_extra": [
+          "test"
+        ]
+      },
+      "metadata_location": "/opt/mambaforge/envs/possum/lib/python3.9/site-packages/wheel-0.45.1.dist-info",
+      "requested": false
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.9.19",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "6.2.0-37-generic",
+    "platform_system": "Linux",
+    "platform_version": "#38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2",
+    "python_full_version": "3.9.19",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.9",
+    "sys_platform": "linux"
+  }
+}
